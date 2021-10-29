@@ -6,6 +6,13 @@
             "package": "sample_pack_unlock",
             "versionName": "ver 0.1",
             "versionNumber": "0.1.0.NEXT"
+        },
+        {
+            "path": "force-app",
+            "package": "sample_pack_unlock_v2",
+            "versionName": "ver 0.1",
+            "versionNumber": "0.1.0.NEXT",
+            "default": false
         }
     ],
     "name": "sample_sfdc",
@@ -13,6 +20,7 @@
     "sfdcLoginUrl": "https://login.salesforce.com",
     "sourceApiVersion": "52.0",
     "packageAliases": {
-        "sample_pack_unlock": "0Ho5h000000GmisCAC"
+        "sample_pack_unlock": "0Ho5h000000GmisCAC",
+        "sample_pack_unlock_v2": "0Ho5h000000GmixCAC"
     }
 }
